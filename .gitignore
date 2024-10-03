@@ -1,0 +1,51 @@
+# CurseForge
+.curseclient
+
+# Test Files
+testServer/
+
+# Tools
+ModListCreator*.jar
+
+# Game Folders
+mods/
+debug/
+logs/
+local/
+saves/
+downloads/
+.mixin.out/
+screenshots/
+profileImage/
+crash-reports/
+resourcepacks/
+shaderpacks/
+schematics/
+modernfix/
+realms_persistence.json
+usercache.json
+usernamecache.json
+servers.dat
+servers.dat_old
+knownkeys.txt
+/options.txt
+command_history.txt
+rhino.local.properties
+
+# Mod Folders
+journeymap/
+
+# Logs and Zips
+*.log
+*.zip
+resourcepacks/*.zip
+
+# Java
+**/*.jar.disabled
+**/*.jar.meta
+!InstanceSync*.jar
+
+# Misc
+*.bak
+.DS_Store
+Thumbs.db

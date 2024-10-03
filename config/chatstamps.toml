@@ -1,0 +1,18 @@
+#Star char Color (example 'WHITE')
+#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+startCharColor = "WHITE"
+#Time Color (example 'WHITE')
+#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+timeColor = "WHITE"
+#Start characters (example '[')
+startChar = "["
+#Date format (example 'h:mm a', Information can be found here 'https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html')
+dateFormat = "h:mm a"
+#End char Color (example 'WHITE')
+#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+endCharColor = "WHITE"
+#End characters (example '[')
+endChar = "]"
+#Whether or not to add a timestamps to commands
+addTimeToNonMessages = false
+
