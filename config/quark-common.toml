@@ -1347,13 +1347,13 @@
 			Dimensions = ["minecraft:overworld"]
 
 [mobs]
-	Crabs = true
-	Stonelings = true
-	Foxhound = true
-	Forgotten = true
-	Wraith = true
-	Toretoise = true
-	Shiba = true
+	Crabs = false
+	Stonelings = false
+	Foxhound = false
+	Forgotten = false
+	Wraith = false
+	Toretoise = false
+	Shiba = false
 
 	[mobs.toretoise]
 		"Max Y Level" = 32

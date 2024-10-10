@@ -1,0 +1,426 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "17F372DFA8A53B0B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A1916821860AA56"]
+			icon: "ae2:sky_dust"
+			id: "700C8F9501C760F7"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "174FF7974E45F9C7"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			title: "Find a meteorite"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"16BAE3F03AF04A5C"
+				"054C2052A22605BD"
+			]
+			dependency_requirement: "one_completed"
+			icon: "create:wrench"
+			id: "59781C76761A149C"
+			rewards: [
+				{
+					id: "17505A9DF6B47578"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "33718F78E65F5FE6"
+					item: "createdeco:yellow_andesite_lamp"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3F503B00567969C5"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "465CC09F29436822"
+				title: "Check to claim!"
+				type: "checkmark"
+			}]
+			title: "Find Any Big Struture"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"This pack uses the AE2 ME System to handle all your storage needs!"
+				""
+				"Craft the Meteorite compass to find a meterorite and start your AE2 adventure!"
+			]
+			id: "2A1916821860AA56"
+			subtitle: "Craft the meteorite compass."
+			tasks: [{
+				id: "01E3D92C3985A213"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			title: "ME Storage System"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"59781C76761A149C"
+				"33EB51570DFB1085"
+				"33D0EBAAE3336074"
+				"00717F25C050FC52"
+				"1CB8D9D877B14188"
+				"1E2884A9643D1825"
+			]
+			icon: "create:wrench"
+			id: "20B4EF53863F681D"
+			rewards: [
+				{
+					id: "09D19D0D9EF1EDB4"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "681244B7A075EBEF"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "39E1037F8405774F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			title: "Find All Create Easy Structures"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4BA571BA0A6F56C5"
+				"3C30E939BFD1C5DA"
+				"5885B11EBD42FE39"
+				"2E3307487A92A698"
+				"7AD9A467F9BD73FB"
+			]
+			dependency_requirement: "one_completed"
+			icon: "create:wrench"
+			id: "33EB51570DFB1085"
+			rewards: [
+				{
+					id: "1AFDA7208E6391A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "44C6781C05D49194"
+					item: "createdeco:yellow_andesite_lamp"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3270F83E5A55B844"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			subtitle: "Find any camp structure to check this quest off"
+			tasks: [{
+				id: "28053485C5A16A56"
+				title: "Check to claim!"
+				type: "checkmark"
+			}]
+			title: "Find Any Camp Structure"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			icon: "create:wrench"
+			id: "33D0EBAAE3336074"
+			rewards: [
+				{
+					id: "6EE1E27997C59557"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "391BCD7D6717B173"
+					item: "createdeco:yellow_andesite_lamp"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1DF485FB44A7E1F1"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "48AEB9CFF931D24B"
+					structure: "create_easy_structures:dirt_structure"
+					type: "structure"
+				}
+				{
+					id: "456E55605212D043"
+					title: "Check to claim!"
+					type: "checkmark"
+				}
+			]
+			title: "Find A Dirt Structure"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3F0F7CBBC4BB26B6"
+				"68A9DDD265F53722"
+			]
+			dependency_requirement: "one_completed"
+			icon: "create:wrench"
+			id: "1CB8D9D877B14188"
+			rewards: [
+				{
+					id: "65E4A474EB002A3B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "49C7A2C56D4E60D9"
+					item: "createdeco:yellow_andesite_lamp"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "24673DCBA24EEA11"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "147C9A35C68E4DD0"
+				title: "Check to claim!"
+				type: "checkmark"
+			}]
+			title: "Find Any Factory"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			icon: "create:wrench"
+			id: "00717F25C050FC52"
+			tasks: [
+				{
+					id: "42E8D2DCFF2AA292"
+					structure: "create_easy_structures:foresttracks"
+					type: "structure"
+				}
+				{
+					id: "5DB1F5FE45374BC9"
+					title: "Check to claim!"
+					type: "checkmark"
+				}
+			]
+			title: "Find A Forest Track Structure"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7C739EE2ADB2BD2B"
+				"38AF8D04F6EF1331"
+				"3EC08FEF6C030091"
+				"2983FFD5A0789B60"
+			]
+			dependency_requirement: "one_completed"
+			icon: "create:wrench"
+			id: "1E2884A9643D1825"
+			rewards: [
+				{
+					id: "33392D363719A4D0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "08498F36A90ABDEA"
+					item: "createdeco:yellow_andesite_lamp"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "104D51604953BE13"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61961DAAAE181E5C"
+				title: "Check to claim!"
+				type: "checkmark"
+			}]
+			title: "Find Any House Structure"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "3F0F7CBBC4BB26B6"
+			tasks: [{
+				id: "68BD3BA10F86EB46"
+				structure: "create_easy_structures:factory_1"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "68A9DDD265F53722"
+			tasks: [{
+				id: "668AB869DFFE32FA"
+				structure: "create_easy_structures:factory_2"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "16BAE3F03AF04A5C"
+			tasks: [{
+				id: "4BE4D96AF7C38D3D"
+				structure: "create_easy_structures:big_1"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "054C2052A22605BD"
+			tasks: [{
+				id: "1F6B0DE890C2FD37"
+				structure: "create_easy_structures:big_2"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "4BA571BA0A6F56C5"
+			tasks: [{
+				id: "57A78FCF4835EB4B"
+				structure: "create_easy_structures:camp_1"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "3C30E939BFD1C5DA"
+			tasks: [{
+				id: "6853BCE393DA1AFB"
+				structure: "create_easy_structures:camp_2"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "5885B11EBD42FE39"
+			tasks: [{
+				id: "7A46C05A48C48826"
+				structure: "create_easy_structures:camp_3"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "2E3307487A92A698"
+			tasks: [{
+				id: "5D17EDF81580E449"
+				structure: "create_easy_structures:camp_4"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "7AD9A467F9BD73FB"
+			tasks: [{
+				id: "3769C9618B38667B"
+				structure: "create_easy_structures:camp_5"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "7C739EE2ADB2BD2B"
+			tasks: [{
+				id: "189D74F75C8CCFC3"
+				structure: "create_easy_structures:house_1"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "38AF8D04F6EF1331"
+			tasks: [{
+				id: "7B9755EAFA09F4AB"
+				structure: "create_easy_structures:house_2"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "3EC08FEF6C030091"
+			tasks: [{
+				id: "56B079E77BAA3CF6"
+				structure: "create_easy_structures:house_3"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:compass"
+			id: "2983FFD5A0789B60"
+			tasks: [{
+				id: "09C8A9661B53EC99"
+				structure: "create_easy_structures:house_4"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+	]
+	title: "Exploration"
+}

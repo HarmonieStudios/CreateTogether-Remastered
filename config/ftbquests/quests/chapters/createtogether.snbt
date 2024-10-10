@@ -9,518 +9,420 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "5DFC115AB50999AB"
+			id: "0A1FCD8A25B9896A"
 			rewards: [
 				{
-					id: "5DD3CAD0BDB7BC8D"
+					id: "74CAB0C12FAFE0E7"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					id: "165E477B7BF63F01"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D6EC4A776AE9831"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C73F7A971006CC7"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B9FE4015E717438"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CB6F1DFDC1C84BA"
+					item: {
+						Count: 1
+						id: "easypaxellite:wood_paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The start of your adventure"
+			tasks: [{
+				advancement: "create:root"
+				criterion: ""
+				id: "75BBA49D60341613"
+				type: "advancement"
+			}]
+			title: "Create Starter Kit"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A1FCD8A25B9896A"]
+			dependency_requirement: "one_started"
+			id: "38464C782F6E72C7"
+			rewards: [
+				{
+					id: "151EF0DB1ABED22F"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					count: 5
-					id: "325E170A4F4D36A5"
+					count: 8
+					id: "2B8C0619D45A7790"
 					item: "create:andesite_alloy"
 					type: "item"
 				}
 			]
+			subtitle: "The start of create"
 			tasks: [{
-				advancement: "create:andesite_alloy"
-				criterion: ""
-				id: "1BC5469D0263457A"
-				type: "advancement"
+				id: "45A7CCFEA4D9E054"
+				item: "create:andesite_alloy"
+				type: "item"
 			}]
-			title: "Sturdier Rocks"
-			x: 0.0d
-			y: 0.0d
+			title: "Andesite Age"
+			x: 1.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["5DFC115AB50999AB"]
-			id: "72ADC3EE4630BFD7"
-			tasks: [{
-				advancement: "create:windmill_maxed"
-				criterion: ""
-				id: "736150A1D94209C0"
-				type: "advancement"
-			}]
-			title: "A Strong Breeze"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5DFC115AB50999AB"]
-			id: "1BF76F4F2E0A9C94"
-			tasks: [{
-				advancement: "create:water_wheel"
-				criterion: ""
-				id: "47D6652221718611"
-				type: "advancement"
-			}]
-			title: "Harnessed Hydraulics"
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5DFC115AB50999AB"]
-			id: "51BC36E2E7EAFDB3"
+			dependencies: ["0A1FCD8A25B9896A"]
+			dependency_requirement: "one_started"
+			id: "06B80874AB7A653B"
 			rewards: [{
-				count: 16
-				id: "0C5C635ADA6CF537"
+				id: "602A44E320DB0940"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Create plumbing starts here"
+			tasks: [{
+				id: "6894456D91D82989"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Copper Age"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A1FCD8A25B9896A"]
+			dependency_requirement: "one_started"
+			id: "31FDC01DE45DB16F"
+			rewards: [{
+				id: "2E721F96448B080E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Brass finally!"
+			tasks: [{
+				id: "6287A4885FE2D382"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Brass Age"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A1FCD8A25B9896A"]
+			id: "03926A3D39ADD03F"
+			rewards: [{
+				id: "43514741E57DBD45"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "The start of trains!"
+			tasks: [{
+				id: "705956788688C2F1"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "Locomotion!"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38464C782F6E72C7"]
+			id: "6C2EAD0D4B11CD27"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 8
+				id: "1BEEE1FF9CB1852D"
 				item: "create:andesite_casing"
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "create:andesite_casing"
-				criterion: ""
-				id: "3B9828DDCC7DA08F"
-				type: "advancement"
-			}]
-			title: "The Andesite Age"
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["1BF76F4F2E0A9C94"]
-			id: "475FED32B977C313"
-			rewards: [{
-				count: 16
-				id: "2F83514DA7AFFABD"
-				item: "create:white_sail"
+				id: "17FE0CFEE429DEEF"
+				item: "create:andesite_casing"
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "create:windmill"
-				criterion: ""
-				id: "4CF2A39A0FD35AA6"
-				type: "advancement"
-			}]
-			title: "A mild breeze"
-			x: 3.5d
-			y: -1.0d
+			x: 1.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["72ADC3EE4630BFD7"]
-			id: "142B0B50BC11F9FF"
-			rewards: [{
-				id: "112487BA32C4B4B2"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			tasks: [{
-				advancement: "create:ejector_maxed"
-				criterion: ""
-				id: "244A3E57FF149FFA"
-				type: "advancement"
-			}]
-			title: "Springboard Champion"
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["51BC36E2E7EAFDB3"]
-			id: "4FEAB35AA48D6BA0"
+			dependencies: ["06B80874AB7A653B"]
+			id: "071CBCDAD37D9F8A"
+			progression_mode: "flexible"
 			rewards: [{
 				count: 8
-				id: "44BB7BC5BC15F317"
-				item: "minecraft:iron_ingot"
+				id: "603C7E22AD86BC05"
+				item: "create:copper_casing"
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "create:mechanical_press"
-				criterion: ""
-				id: "74DCCEC64AE229E4"
-				type: "advancement"
+				id: "122B5F54E2930F75"
+				item: "create:copper_casing"
+				type: "item"
 			}]
-			title: "BONK!"
-			x: 3.5d
-			y: 1.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["475FED32B977C313"]
-			id: "7DBD2E4D867CF519"
-			rewards: [
-				{
-					count: 5
-					id: "0529FFEB1B92E62A"
-					item: "create:large_cogwheel"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "710CE64BDA924531"
-					item: "create:cogwheel"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "08F260AC0D034E73"
-					item: "create:gearbox"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "71A6588BD4C5F22B"
-					item: "create:vertical_gearbox"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "4F9C8A97A8D5CA97"
-					item: "create:shaft"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "create:shifting_gears"
-				criterion: ""
-				id: "766C60ABCA4E6876"
-				type: "advancement"
-			}]
-			title: "Shifting Gears"
-			x: 4.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["142B0B50BC11F9FF"]
-			id: "4259D0CD68F7D1E7"
+			dependencies: ["31FDC01DE45DB16F"]
+			id: "76FA5B67B198796C"
+			progression_mode: "flexible"
 			rewards: [{
-				id: "3FCC68B9A69B7D44"
+				count: 8
+				id: "2E185F959777C475"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4919923503D5C9B4"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["03926A3D39ADD03F"]
+			id: "693F4D09F3394CAD"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 8
+				id: "1D82775E2B454218"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41ED98ADE7BB02BB"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6446A06144734689"
+				"3FF0CCD61934E40F"
+				"4CCE4DBD40412503"
+				"02593774C468CF70"
+				"6ACA90EBF5A25926"
+				"5C96D9D45C7C8A67"
+			]
+			dependency_requirement: "one_completed"
+			id: "7B4961EF264418BD"
+			rewards: [{
+				id: "45D10B6649D5BDD4"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 5
 			}]
 			tasks: [{
-				advancement: "create:pulley_maxed"
-				criterion: ""
-				id: "072BD8D491C253FB"
-				type: "advancement"
+				id: "2492963552D8BE32"
+				title: "Check to claim!"
+				type: "checkmark"
 			}]
-			title: "Rope To Nowhere"
-			x: 4.5d
-			y: 0.0d
+			title: "Hull aboard!"
+			x: -3.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["4FEAB35AA48D6BA0"]
-			id: "2AAB34311BB17306"
-			rewards: [
-				{
-					id: "0239A484E000312F"
-					item: "minecraft:water_bucket"
-					type: "item"
-				}
-				{
-					id: "77CC3D8FCE26E4DB"
-					item: "minecraft:lava_bucket"
-					type: "item"
-				}
-			]
+			id: "6446A06144734689"
 			tasks: [{
-				advancement: "create:encased_fan"
-				criterion: ""
-				id: "0E5111B22DE5DE6A"
-				type: "advancement"
-			}]
-			title: "Wind Maker"
-			x: 4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2AAB34311BB17306"]
-			id: "71E476C4F2B89EF0"
-			tasks: [{
-				advancement: "create:fan_processing"
-				criterion: ""
-				id: "422DCE9D860A854B"
-				type: "advancement"
-			}]
-			title: "Processing By Particle"
-			x: 5.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["71E476C4F2B89EF0"]
-			id: "02D29ACE62A52E97"
-			rewards: [{
-				count: 32
-				id: "6872A31F10D14EBE"
-				item: "minecraft:oak_log"
+				id: "30E52559649FFDFD"
+				item: "createdeco:andesite_hull"
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "create:saw_processing"
-				criterion: ""
-				id: "1F698AE2F6CCB990"
-				type: "advancement"
-			}]
-			title: "Workshop's Most Feared"
-			x: 6.5d
-			y: 1.0d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["7DBD2E4D867CF519"]
-			id: "6E18774058285C97"
-			rewards: [
-				{
-					count: 12
-					id: "445671C3B6327A95"
-					item: "minecraft:wheat"
-					type: "item"
-				}
-				{
-					id: "2E34D307E72CBC0E"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			id: "3FF0CCD61934E40F"
 			tasks: [{
-				advancement: "create:millstone"
-				criterion: ""
-				id: "161960273A72EBCB"
-				type: "advancement"
-			}]
-			title: "Embrace The Grind"
-			x: 5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["4259D0CD68F7D1E7"]
-			id: "3DD54780625943C1"
-			tasks: [{
-				advancement: "create:cart_pickup"
-				criterion: ""
-				id: "4A8AC4DD2761F429"
-				type: "advancement"
-			}]
-			title: "Strong Arms"
-			x: 5.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3DD54780625943C1"]
-			id: "5E3E3BB997AB90D7"
-			tasks: [{
-				advancement: "create:anvil_plough"
-				criterion: ""
-				id: "0FB73A1E714485BF"
-				type: "advancement"
-			}]
-			title: "Blacksmith Artillery"
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6E18774058285C97"]
-			id: "63AEDE727C42E75C"
-			rewards: [{
-				id: "62BCCA44D4DC6C99"
-				item: {
-					Count: 1
-					id: "create:super_glue"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "20B5FC834B438192"
+				item: "createdeco:brass_hull"
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "create:super_glue"
-				criterion: ""
-				id: "4BD728EDEF2939DB"
-				type: "advancement"
-			}]
-			title: "Area Of Connect"
-			x: 6.5d
-			y: -1.0d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["63AEDE727C42E75C"]
-			id: "4A73B9022844DB02"
-			rewards: [{
-				count: 3
-				id: "48BBDE8B25AA9922"
-				item: "create:mechanical_harvester"
+			id: "4CCE4DBD40412503"
+			tasks: [{
+				id: "17A25BEF8B27CA82"
+				item: "createdeco:copper_hull"
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "create:contraption_actors"
-				criterion: ""
-				id: "792C110708382C07"
-				type: "advancement"
-			}]
-			title: "Moving With Purpose"
-			x: 7.5d
-			y: -1.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["4A73B9022844DB02"]
-			id: "2C461C83509458EB"
+			id: "02593774C468CF70"
 			tasks: [{
-				advancement: "create:portable_storage_interface"
-				criterion: ""
-				id: "7D02A0C0EDD36E2F"
-				type: "advancement"
+				id: "692894F1C9E5B55D"
+				item: "createdeco:iron_hull"
+				type: "item"
 			}]
-			title: "Drive-By Exchange"
-			x: 8.5d
-			y: -1.0d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["02D29ACE62A52E97"]
-			id: "349B50F7C4C10599"
+			id: "5C96D9D45C7C8A67"
 			tasks: [{
-				advancement: "create:compacting"
-				criterion: ""
-				id: "57427344CD7AB537"
-				type: "advancement"
+				id: "7A3B970A6B52E819"
+				item: "createdeco:industrial_iron_hull"
+				type: "item"
 			}]
-			title: "Compactification"
-			x: 7.5d
-			y: 1.0d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["349B50F7C4C10599"]
-			id: "7B33975A32FEA3F9"
+			id: "6ACA90EBF5A25926"
+			tasks: [{
+				id: "19222F12A88F0C40"
+				item: "createdeco:zinc_hull"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0A1FCD8A25B9896A"]
+			dependency_requirement: "one_started"
+			id: "425FF1CEDD215298"
+			rewards: [{
+				id: "7FC51CDA6D28E7AA"
+				item: "createdeco:decal_electrical"
+				type: "item"
+			}]
+			subtitle: "It's like a transistor, but not really"
+			tasks: [{
+				id: "1E729AE29E3E8246"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Electricity?"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0ABC48F2EE69894F"]
+			id: "2700D1A158F8ED4F"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "273C9BB64033FB1A"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			title: "Charger 2.0"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["425FF1CEDD215298"]
+			id: "5D21D89E8BFF8B74"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "30A35456739E3564"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			title: "Not Quite A Display"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0ABC48F2EE69894F"]
+			id: "74D39E7C112B49B7"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "22DC5D6317BBA085"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["425FF1CEDD215298"]
+			id: "0ABC48F2EE69894F"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "7C8B92F7528812C9"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			title: "Cap or no cap?"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0ABC48F2EE69894F"]
+			id: "498E8AF7F101C2C1"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "5C3C845FD786F03E"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["425FF1CEDD215298"]
+			id: "3915B7399AD255BD"
+			progression_mode: "flexible"
 			rewards: [{
 				count: 4
-				id: "7FAE3045583D1DC1"
-				item: "create:belt_connector"
+				id: "3A2B00445791A50F"
+				item: "createaddition:copper_spool"
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "create:belt"
-				criterion: ""
-				id: "06306C28CF7FBA44"
-				type: "advancement"
-			}]
-			title: "Kelp Drive"
-			x: 8.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7B33975A32FEA3F9"]
-			id: "09F48A96521C29B7"
-			rewards: [{
-				id: "23C205DB710A6279"
-				item: "create:andesite_funnel"
+				id: "6FA36FFB6B0003C3"
+				item: "createaddition:copper_spool"
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "create:funnel"
-				criterion: ""
-				id: "49D96389CC66B304"
-				type: "advancement"
-			}]
-			title: "Airport Aesthetic"
-			x: 9.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["09F48A96521C29B7"]
-			id: "2478CAADD354B80E"
-			rewards: [{
-				id: "37CFC7B853510027"
-				item: "create:chute"
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "create:chute"
-				criterion: ""
-				id: "1A433D0C526B512F"
-				type: "advancement"
-			}]
-			title: "Vertical Logistics"
-			x: 10.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2478CAADD354B80E"]
-			id: "40720F5122DA715A"
-			tasks: [{
-				advancement: "create:mechanical_mixer"
-				criterion: ""
-				id: "2ADE46F2495BEB67"
-				type: "advancement"
-			}]
-			title: "Mixing It Up"
-			x: 11.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["42DCAAA264EE50F6"]
-			id: "5AFC15A739E2D475"
-			tasks: [{
-				advancement: "create:cuckoo_clock"
-				criterion: ""
-				id: "22537DA23DBBC2AD"
-				type: "advancement"
-			}]
-			title: "Is It Time?"
-			x: 11.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2C461C83509458EB"]
-			id: "7305D78C151F385A"
-			tasks: [{
-				advancement: "create:wrench_goggles"
-				criterion: ""
-				id: "2F80AB8AB3B88C4D"
-				type: "advancement"
-			}]
-			title: "Kitted Out"
-			x: 9.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7305D78C151F385A"]
-			id: "42DCAAA264EE50F6"
-			tasks: [{
-				advancement: "create:stressometer"
-				criterion: ""
-				id: "1C0960C7AAA44670"
-				type: "advancement"
-			}]
-			title: "Stress For Nerds"
-			x: 10.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["40720F5122DA715A"]
-			id: "1FF1D29F9C919A83"
-			tasks: [{
-				advancement: "create:burner"
-				criterion: ""
-				id: "6976A562959B95DC"
-				type: "advancement"
-			}]
-			title: "Sentient Fireplace"
-			x: 12.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["40720F5122DA715A"]
-			id: "34C6CDE994AB34CD"
-			invisible: true
-			tasks: [{
-				advancement: "create:stressometer_maxed"
-				criterion: ""
-				id: "11B13E51881041E4"
-				type: "advancement"
-			}]
-			title: "Perfectly Stressed"
-			x: 11.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["1FF1D29F9C919A83"]
-			id: "6A41C586544F0FD3"
-			tasks: [{
-				advancement: "create:copper"
-				criterion: ""
-				id: "53CFA2991F0F3F7F"
-				type: "advancement"
-			}]
-			title: "CupRum Bokum"
-			x: 14.5d
-			y: -1.0d
+			title: "Wireless!"
+			x: 4.0d
+			y: 1.5d
 		}
 	]
 	title: "Create"

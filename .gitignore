@@ -31,6 +31,7 @@ knownkeys.txt
 /options.txt
 command_history.txt
 rhino.local.properties
+TrashSlotSaveState.json
 
 # Mod Folders
 journeymap/
